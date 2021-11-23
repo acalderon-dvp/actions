@@ -13,4 +13,4 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world desde workflow!
       - name: run action
-        uses: acalderon-dvp/actions@action.yml@v1
+        uses: acalderon-dvp@action.yml
