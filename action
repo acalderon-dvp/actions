@@ -1,0 +1,7 @@
+name: CI
+on: [ push, release, pull_request ]
+jobs: 
+  hola_mundo:
+    runs-on: [self-hosted, rancher-ci]
+    steps:
+      run: echo hello_world desde action!
