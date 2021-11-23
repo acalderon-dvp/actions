@@ -1,7 +1,15 @@
-name: CI
-on: [ push, release, pull_request ]
-jobs: 
-  hola_mundo:
-    runs-on: windows-latest
-    steps:
-      run: echo hello_world desde action!
+name: Hola mundo
+description: 'Saludar con variable y mostrar fecha'
+inputs: 
+  variable: # id of input
+    description: 'variable para saludar'
+    required: true
+    default: 'mundo'
+    
+outputs: 
+  fecha: # id of output
+    description: 'La fecha a mostrar'
+   
+runs:
+  args:
+    - ${{ inputs.variable }}
