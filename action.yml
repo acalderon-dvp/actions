@@ -12,6 +12,8 @@ outputs:
    
 runs:
   using: 'composite'
-  # image: 'Dockerfile'
+  steps:
+    - run: echo 'Hello world desde la action'
+      shell: bash
   args:
     - ${{ inputs.variable }}
