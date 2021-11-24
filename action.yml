@@ -1,0 +1,19 @@
+name: Hola mundo
+description: 'Saludar con variable y mostrar fecha'
+#inputs: 
+#  variable: # id of input
+#    description: 'variable para saludar'
+#    required: true
+#    default: 'mundo'
+    
+#outputs: 
+#  fecha: # id of output
+#    description: 'La fecha a mostrar'
+   
+runs:
+  using: 'composite'
+  steps: 
+    - run: echo 'Hello world desde action'
+    shell: bash
+#  args:
+#    - ${{ inputs.variable }}
