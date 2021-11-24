@@ -11,7 +11,7 @@ outputs:
     description: 'La fecha a mostrar'
    
 runs:
-  # using: 'docker'
+  using: 'composite'
   # image: 'Dockerfile'
   args:
     - ${{ inputs.variable }}
