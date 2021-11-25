@@ -17,4 +17,4 @@ jobs:
 
       - id: foo
         name: run de action
-        uses: ./actions
+        uses: ./actions/
