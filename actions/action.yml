@@ -13,7 +13,7 @@ description: 'Saludar con variable y mostrar fecha'
 runs:
   using: 'composite'
   steps: 
-    - run: echo 'Hello world desde action'
+    - run: echo 'Hello world desde action de directorio'
       shell: bash
 #  args:
 #    - ${{ inputs.variable }}
