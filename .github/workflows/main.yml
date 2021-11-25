@@ -17,4 +17,4 @@ jobs:
 
       - id: foo
         name: run de action
-        uses: acalderon-dvp/actions@v1
+        uses: ./actions
