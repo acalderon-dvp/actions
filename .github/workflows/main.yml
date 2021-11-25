@@ -15,4 +15,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - uses: acalderon-dvp/actions@v1
+      - id: foo
+        name: run de action
+        uses: acalderon-dvp/actions@v1
