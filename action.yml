@@ -14,6 +14,6 @@ runs:
   using: 'composite'
   steps: 
     - run: echo 'Hello world desde action'
-    shell: bash
+      shell: bash
 #  args:
 #    - ${{ inputs.variable }}
