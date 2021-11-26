@@ -15,6 +15,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - id: foo
-        name: run de action
+      - name: run de action
+        id: foo
         uses: ./actions/
