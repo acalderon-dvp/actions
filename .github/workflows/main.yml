@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs: 
       file:
-        description: 'Valores permitidos: Ejemplo1 Ejemplo2 Ejemplo3 Ejemplo4"
-
+        description: 'Valores permitidos: Ejemplo1 Ejemplo2 Ejemplo3 Ejemplo4'
+        required: false
 
 jobs:
   build:
