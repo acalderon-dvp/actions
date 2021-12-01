@@ -15,5 +15,8 @@ runs:
   steps: 
     - run: echo 'Hello world desde action de la raiz'
       shell: bash
+      
+    - run: dir
+      shell: bash
 #  args:
 #    - ${{ inputs.variable }}
