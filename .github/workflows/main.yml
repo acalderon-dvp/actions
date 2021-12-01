@@ -1,5 +1,10 @@
 name: CI
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+    inputs: 
+      file:
+        description: 'Valores permitidos: Ejemplo1 Ejemplo2 Ejemplo3 Ejemplo4
+
 
 jobs:
   build:
